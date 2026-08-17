@@ -27,7 +27,7 @@ export function FilterBar({
           <button type="button" className="ghost-button" onClick={onPreviousDay}>
             Previous day
           </button>{" "}
-          <button type="button" className="ghost-button" onClick={onToday}>
+          <button type="button" className="primary-button" onClick={onToday}>
             Today
           </button>{" "}
           <button type="button" className="ghost-button" onClick={onNextDay}>

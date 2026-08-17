@@ -179,10 +179,18 @@ a:focus-visible {
   cursor: pointer;
 }
 
+.ghost-button:hover {
+  background: var(--sand);
+}
+
 .primary-button {
   background: var(--moss);
   color: white;
   border-color: var(--moss);
+}
+
+.primary-button:hover {
+  background: var(--moss-deep);
 }
 
 .text-button {
